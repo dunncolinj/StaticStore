@@ -1,0 +1,114 @@
+header {
+    border-width: 5px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: black;
+    background-image:url("assets/grass.jpg");
+    color: white;
+    height: 80px;
+}
+
+footer {
+    border-width: 5px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: black;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 15px; 
+    background-image:url("assets/sidewalk.jpg")
+}
+
+footer ul li {
+    display: inline-block;
+    color: black;
+    list-style: none;
+    margin: 0 0 0 1em;
+    padding: 0;
+}
+
+#centered {
+    text-align: center;
+}
+
+#corner {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-family: sans-serif;
+    font-size: 12pt;
+    text-align: right;
+    vertical-align: top;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+}
+#sidebar {
+    order: 1;
+    width: 33%;
+    border-width: 5px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: black;
+    display: inline-block;
+    font-size: 14pt;
+    height: 550px;
+    background-image: url("assets/sidewalk.jpg");
+}
+
+#sidebar ul li {
+    list-style: none;
+    font-family: sans-serif;
+}
+
+#adoptabledogs {
+    order: 2;
+    width: 66%;
+    border-width: 5px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+    display: inline-block;
+    height: 550px;
+    background-image: url("assets/grass.jpg");
+    overflow: auto;
+}
+
+#adoptabledogs h2 {
+    color: yellow;
+}
+#dog {
+    border-width: 5px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: black;
+    width: 280px;
+    display: inline-block;
+    background-color: beige;
+}
+
+h1 {
+    font-family: sans-serif;
+    font-size: 24pt;
+}
+
+h2 {
+    font-family: sans-serif;
+    font-size: 18pt;
+}
+
+h3 {
+    font-family: sans-serif;
+    font-size: 14 pt;
+}
+
+h4 {
+    font-family: sans-serif;
+    font-size: 12 pt;
+}
+
