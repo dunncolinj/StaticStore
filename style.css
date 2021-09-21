@@ -27,6 +27,11 @@ footer ul li {
     padding: 0;
 }
 
+footer a {
+    color: black;
+    font-size: 14pt;
+}
+
 #centered {
     text-align: center;
 }
@@ -63,6 +68,10 @@ footer ul li {
 #sidebar ul li {
     list-style: none;
     font-family: sans-serif;
+}
+
+#sidebar a {
+    color: black;
 }
 
 #adoptabledogs {
